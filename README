@@ -1,0 +1,102 @@
+/*
+ * Project Documentation for Personal Profile Using Semantic HTML
+ *
+ * This document provides a detailed overview of the personal profile
+ * project and explains why semantic HTML was selected for the page.
+ *
+ * The project is a static profile page intended to present a person’s
+ * identity, professional summary, skills, education, experience, and
+ * contact details in a clear and accessible format.
+ *      
+ * The main responsibility of the code is to define the page structure
+ * in a way that communicates meaning to browsers, assistive technologies,
+ * and search engines without relying on generic layout wrappers.
+ *
+ * The page expects content inputs such as a profile name, headline,
+ * biography text, role descriptions, timelines, skill lists, and links to
+ * social media or portfolio resources.
+ *
+ * It also expects references to assets like profile images, icons,
+ * downloadable documents, or embedded media that support the profile.
+ *
+ * The output is rendered HTML markup that can be styled with CSS and
+ * displayed by a web browser. The markup should also provide meaningful
+ * document structure for accessibility and SEO.
+ *
+ * This project should not depend on scripting for basic content delivery.
+ * The HTML is the foundation, and enhancements via CSS or JavaScript can be
+ * added later without compromising the core semantics.
+ *
+ * Architectural note: the page is organized into semantic landmarks.
+ * A <header> contains the introductory profile content, <main> holds the
+ * primary sections, and <footer> contains secondary details and legal info.
+ *
+ * Each major content block is intended to be modeled with semantic tags,
+ * such as <section> for grouped profile topics and <article> for individual
+ * entries like job listings or project summaries.
+ *
+ * A <nav> can be included when there are internal links or section
+ * navigation, but it should be used only if it contributes to usability.
+ *
+ * The HTML should be written so that a screen reader user can jump
+ * between landmarks, headings, and lists to understand the page quickly.
+ *
+ * Headings should follow logical nesting, starting with one <h1> for the
+ * page title and using <h2>, <h3>, and so on for subordinate sections.
+ *
+ * A profile image should use an <img> element with descriptive alt text
+ * that explains the image’s purpose, such as “Portrait of [Name].”
+ *
+ * Decorative images should have empty alt attributes so they are ignored by
+ * assistive technology and do not create unnecessary noise.
+ *
+ * Lists should be used for repeating items, such as skills, interests,
+ * certifications, or dates, to signal that the content is related and
+ * ordered or grouped.
+ *
+ * When describing experience, use a clear structure that separates the
+ * organization name, role title, dates, and responsibilities or achievements.
+ *
+ * A definition list may be appropriate for terms and details such as labels,
+ * locations, or contact information, if it improves clarity.
+ *
+ * The document should avoid redundant wrappers and empty containers; every
+ * tag should have a semantic purpose or contain meaningful content.
+ *
+ * The chosen structure should allow the profile page to adapt to different
+ * screen sizes when paired with responsive CSS, without requiring markup
+ * changes for layout alone.
+ *
+ * The code is designed to integrate easily with CSS modules, global styles,
+ * or utility class systems, as long as the semantic HTML remains the base.
+ *
+ * The project may optionally include an <aside> to house supplementary
+ * content such as testimonials, awards, side notes, or secondary links.
+ *
+ * Supplemental content should be related to the profile but not mandatory for
+ * the main narrative, so using <aside> clearly signals that difference.
+ *
+ * Any links should be descriptive and avoid generic text like “click here”.
+ * Good link text helps users and improves accessibility and search relevance.
+ *
+ * Contact methods should be easy to identify, with addresses, email, phone,
+ * or social profiles presented in a consistent and readable format.
+ *
+ * The project should document where the HTML content is sourced from, whether
+ * it is hand-authored or generated from a CMS, template, or data file.
+ *
+ * If the profile is part of a larger website, note how it integrates with the
+ * surrounding site structure and navigation expectations.
+ *
+ * The README should also mention whether this page is intended to be a
+ * standalone landing page, part of a portfolio, or a resume-style summary.
+ *
+ * This information helps future developers understand the intended usage and
+ * avoid making structural changes that harm accessibility or semantics.
+ *
+ * The HTML should be checked for validity and should use consistent indentation
+ * and naming conventions to make it easier to maintain.
+ *
+ * In addition, the code should be tested with browser developer tools and accessibility evaluation tools
+ * to confirm that the semantic patterns behave as expected.
+ */
